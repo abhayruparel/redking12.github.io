@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--link rel="icon" type="image/png" href="assert/images/favicon/fav.jpg" /-->
+<link rel="shortcut icon" href="assert/images/favicon/fav.jpg" />
+	<title>Abhay Rupare (redking12)</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Abhay Ruparel" />
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- Custom Theme files -->
+	<link href="assert/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<!-- //gallery -->
+	<link href="assert/css/style.css" type="text/css" rel="stylesheet" media="all">
+	<!-- js -->
+	<script src="assert/js/jquery-2.2.3.min.js"></script>
+	<!-- //js -->
+	<!-- web-fonts -->
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Arsenal:400,400i,700,700i" rel="stylesheet">
+	<!-- //web-fonts -->
+</head>
+
+<body>
+	<!-- banner -->
+	<div id="home" class="banner">
+		<div class="banner-agileinfo">
+			<!-- header -->
+			<div class="header">
+				<div class="container">
+					<div class="menu">
+						<a href="" id="menuToggle"> <span class="navClosed"></span> </a>
+						<nav>
+							<a href="#home" class="active scroll">Home</a>
+							<a href="#about" class="scroll">About Me</a>
+						</nav>
+						<script>
+							(function ($) {
+								// Menu Functions
+								$(document).ready(function () {
+									$('#menuToggle').click(function (e) {
+										var $parent = $(this).parent('.menu');
+										$parent.toggleClass("open");
+										var navState = $parent.hasClass('open') ? "hide" : "show";
+										$(this).attr("title", navState + " navigation");
+										// Set the timeout to the animation length in the CSS.
+										setTimeout(function () {
+											console.log("timeout set");
+											$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+										}, 200);
+										e.preventDefault();
+									});
+								});
+							})(jQuery);
+						</script>
+
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- //header -->
+			<div class="banner-text">
+				<div class="container">
+					<h1>Hello<br>World</h1>
+					<h2 class="w3ls-bnrtext">Abhay Ruparel</h2>
+					<p class="w3ls-p">18 Year Old Student</p>
+					<a href="#about" class="buy btn-wayra scroll">⇩</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- about -->
+	<div class="agile-about w3ls-section text-center" id="about">
+		<div class="container">
+			<h3 class="agileits-title">about me</h3>
+			<div class="agileits-about-grid">
+				<font size="4">
+					<p>I am student learning to code by myself, in my spare time I like working on Androdid system, linux kernels and any other tech-related things.</p>
+					<br>
+				<p>I am open to any project requests.</p></font><b/r>
+					</font>
+				<font size="6">
+					<br><br><b/r>
+					<p><u>My links :</u><b/r></font></p><br><b/r><p>
+                        <H1 align="center">
+                            <a href="https://github.com/redking12">
+                            <img border="40" src="assert/images/github.jpg" title="Check my work on github" github width="90" height="90">
+
+	                        <a href="mailto:abhayruparel2000@gmail.com">
+                            <img border="40" src="assert/images/mail.jpg" title="Contact me by email" width="90" height="90">
+
+                            <a href="https://www.paypal.me/redking1">
+                            <img border="40" src="assert/images/paypal.jpg" title="Help me on my projects :)" width="90" height="90">
+
+                        	<a href="https://t.me/redking12">
+                            <img border="40" src="assert/images/tg.jpg" title="Send me a message ;)" width="80" height="80">
+
+                            <a href="https://forum.xda-developers.com/member.php?u=7957595">
+                            <img border="0" src="assert/images/ic_web.jpg" title="look at my work on XDA" width="98" height="110">
+                        </a></p><br><b/r><br><b/r><br><b/r>
+
+<footer>
+    
+<font size="2">  <p>Page courtesy w3layout, McFy49 & Me Ofc :P</p></font>
+        
+</footer>
+
+
+<title>Horizontal Navigation Bar w/Rollover Effect</title>
+<style type="text/css">
+<!--
+
+ #navbar ul {
+	margin: 0;
+	padding: 60px;
+	list-style-type: none;
+	text-align: center;
+	background-color: #fff;
+	}
+
+#navbar ul li {n
+	display: inline;
+	}
+
+#navbar ul li a {
+	text-decoration: none;
+	padding: .em 1em;
+	color: #000;
+	background-color: #fff;
+	}
+
+#navbar ul li a:hover {
+	color: #000;
+	background-color: #fff;
+	}
+
+</style>
+
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="assert/js/move-top.js"></script>
+	<script type="text/javascript" src="assert/js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- //end-smooth-scrolling -->
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear'
+			};
+			*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+<script type="text/javascript" src="assert/js/SmoothScroll.min.js"></script>
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="assert/js/bootstrap.js"></script>
+</body>
+</html>
